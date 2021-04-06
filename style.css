@@ -1,0 +1,40 @@
+body{
+	background-color: #F5F4F4;
+}
+
+.my-color {
+	background-color: #CAE4DB !important;
+}
+#navbarNav{
+padding-top: 0;
+}
+
+#navbar ul li p{
+	color: black;
+	margin-bottom: .3px;
+}
+#navbar ul li{
+	margin-right: 25px;
+}
+
+#navbar ul li .text-icon{
+	margin-top: -5px;
+	margin-bottom: 0;
+}
+
+/*report data*/
+.jumbotron{
+	background-color: #F5F4F4;
+	padding: 30px 0;
+}
+
+/*footer*/
+footer {
+	height: 35px;
+	line-height: 30px;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #5B5B5B;
+}
