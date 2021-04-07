@@ -16,12 +16,7 @@
   <body>
     <!-- image -->
     <div id="container-image">
-     <img src="icons/Capture.png" alt="image">
-     <!--  <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          
-        </div>
-      </div> -->
+     <img class="image" width="100%" height="280" src="icons/gambar.jpeg" alt="image">
     </div>
     <!-- /image -->
 
@@ -60,57 +55,41 @@
 
 
     <!-- registration -->
-     <!-- report data -->
-    <div id="data-laporan" class="report-data text-center">
+    <div id="registration" class="registration">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4 pb-5"><strong>Registration User</strong></h1>
+          <h1 class="display-4 pb-5 text-center"><strong>Registration User</strong></h1>
           <form>
             <div class="form-group row">
-              <label for="colFormLabel" class="col-sm-2 col-form-label">Id Number</label>
+              <label for="id-number" class="col-sm-2 col-form-label">Id Number</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" id="colFormLabel" placeholder="email">
+                <input type="id" class="form-control mb-2" id="id-number" placeholder="id number">
               </div>
-              <label for="colFormLabel" class="col-sm-2 col-form-label">Name</label>
+              <label for="password" class="col-sm-2 col-form-label">Password</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" id="colFormLabel" placeholder="email">
+                <input type="password" class="form-control mb-2" id="password" placeholder="password">
               </div>
-              <label for="colFormLabel" class="col-sm-2 col-form-label">Place/Date of Birth</label>
+              <label for="name" class="col-sm-2 col-form-label">Name</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" id="colFormLabel" placeholder="email">
+                <input type="name" class="form-control mb-2" id="name" placeholder="name">
               </div>
-              <label for="colFormLabel" class="col-sm-2 col-form-label">Gender</label>
+              <label for="date" class="col-sm-2 col-form-label">Date of Birth</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" id="colFormLabel" placeholder="email">
+                <input type="date" class="form-control mb-2" id="date">
               </div>
-              <label for="colFormLabel" class="col-sm-2 col-form-label">Work Position</label>
+              <label for="work-position" class="col-sm-2 col-form-label">Work Position</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" id="colFormLabel" placeholder="email">
+                <input type="text" class="form-control mb-2" id="work-position" placeholder="work postition">
               </div>
-              <label for="colFormLabel" class="col-sm-2 col-form-label">Address</label>
+              <label for="address" class="col-sm-2 col-form-label">Address</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" id="colFormLabel" placeholder="email">
+                 <textarea class="form-control" id="address" rows="3" placeholder="address"></textarea>
               </div>
             </div>
           </form>
         </div>
       </div>
     </div>
-    <!-- /report data -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- /registration -->
 
     <!-- footer -->

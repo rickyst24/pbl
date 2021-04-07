@@ -16,12 +16,7 @@
   <body>
     <!-- image -->
     <div id="container-image">
-     <img src="icons/Capture.png" alt="image">
-     <!--  <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          
-        </div>
-      </div> -->
+     <img class="image" width="100%" height="280" src="icons/gambar.jpeg" alt="image">
     </div>
     <!-- /image -->
 
